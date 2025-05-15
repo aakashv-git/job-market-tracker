@@ -1,1 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+
+# Colab / Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data
+*.csv
+*.tsv
+*.sqlite
+data/
+
+# Airflow
+logs/
+dags/__pycache__/
+airflow.cfg
+unittest.cfg
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
 
